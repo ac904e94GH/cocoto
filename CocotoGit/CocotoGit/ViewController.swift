@@ -12,7 +12,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var saveBtn: UIButton!
     
-    @IBOutlet wear var textField: UITextField!
+    @IBOutlet weak var textField: UITextField!
+    
+    @IBOutlet weak var textField2: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
